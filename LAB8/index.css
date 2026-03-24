@@ -1,0 +1,36 @@
+.app {
+  max-width: 400px;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+form, .filters {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 1rem;
+}
+
+input, button {
+  padding: 8px;
+  border: 1px solid #971818;
+  border-radius: 4px;
+}
+body{
+  background-color: pink;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 8px;
+  border-bottom:1px solid #2714d3;
+  cursor: pointer;
+}
+
+.done {
+  text-decoration: line-through;
+  color: rgb(8, 211, 69);
+}
